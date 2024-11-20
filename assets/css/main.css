@@ -737,8 +737,8 @@
   
   .intro--banner h1 {
     position: relative;
-    font-size: 68px; 
-    font-weight: 900;
+    font-size: 100px;  /*Change this */
+    font-weight: 100;
     line-height: 1;
     z-index: 1
   }
@@ -1146,7 +1146,7 @@
   
   .about--banner {
     position: relative;
-    height: 475px
+    height: 400px
   }
   
   .about--banner::before {
@@ -1175,7 +1175,7 @@
   
   .about--banner h2 {
     position: relative;
-    margin-top: 35px;
+    margin-top: 100px;
     font-size: 68px;
     font-weight: 900;
     line-height: 1;
@@ -1241,25 +1241,28 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    
     margin: 0;
     padding: 0;
     list-style: none
+    
   }
   
   .about--options>a {
     position: relative;
     width: 150px;
-    height: 75px;
+    height: 120px;
     text-decoration: none;
     color: #fff;
     border: 10px solid #0f33ff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
+    
   }
   
   .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/linkedin.svg")
   }
   
   .about--options>a:nth-child(2) {
